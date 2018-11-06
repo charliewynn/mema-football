@@ -1,13 +1,13 @@
 {
-  "main.css": "/football/static/css/main.a2cf53c3.chunk.css",
-  "main.js": "/football/static/js/main.81e0093c.chunk.js",
-  "main.js.map": "/football/static/js/main.81e0093c.chunk.js.map",
-  "static/js/1.6eb6405c.chunk.js": "/football/static/js/1.6eb6405c.chunk.js",
-  "static/js/1.6eb6405c.chunk.js.map": "/football/static/js/1.6eb6405c.chunk.js.map",
-  "runtime~main.js": "/football/static/js/runtime~main.c5372b0a.js",
-  "runtime~main.js.map": "/football/static/js/runtime~main.c5372b0a.js.map",
-  "static/css/main.a2cf53c3.chunk.css.map": "/football/static/css/main.a2cf53c3.chunk.css.map",
-  "index.html": "/football/index.html",
-  "precache-manifest.0f8280eafd7f24dc07ff900085d2dd22.js": "/football/precache-manifest.0f8280eafd7f24dc07ff900085d2dd22.js",
-  "service-worker.js": "/football/service-worker.js"
+  "main.css": "/mema-football/static/css/main.a2cf53c3.chunk.css",
+  "main.js": "/mema-football/static/js/main.0c6f6720.chunk.js",
+  "main.js.map": "/mema-football/static/js/main.0c6f6720.chunk.js.map",
+  "static/js/1.6eb6405c.chunk.js": "/mema-football/static/js/1.6eb6405c.chunk.js",
+  "static/js/1.6eb6405c.chunk.js.map": "/mema-football/static/js/1.6eb6405c.chunk.js.map",
+  "runtime~main.js": "/mema-football/static/js/runtime~main.47584f5d.js",
+  "runtime~main.js.map": "/mema-football/static/js/runtime~main.47584f5d.js.map",
+  "static/css/main.a2cf53c3.chunk.css.map": "/mema-football/static/css/main.a2cf53c3.chunk.css.map",
+  "index.html": "/mema-football/index.html",
+  "precache-manifest.fcfe7e100eb12f43039326346726696c.js": "/mema-football/precache-manifest.fcfe7e100eb12f43039326346726696c.js",
+  "service-worker.js": "/mema-football/service-worker.js"
 }
