@@ -1,0 +1,56 @@
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.person {
+  background: rgba(0, 0, 0, 0.05);
+  margin: 0.5em;
+  border-radius: 2px;
+  padding: 8px;
+  min-width: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.person.winning {
+  background-color: gold;
+}
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  justify-content: center;
+}
+.team {
+  background: rgba(0, 0, 0, 0.05);
+  margin: 0.5em;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  min-width: 75px;
+}
+
+.team.picked {
+  border: 1px solid black;
+}
+.team-score-holder {
+  flex-grow: 1;
+}
+.team-score {
+  width: 80px;
+}
+
+.team-score.ou-win {
+  color: whitesmoke;
+  background-color: crimson;
+}
+.team-score.opp-win {
+  color: white;
+  background-color: black;
+}

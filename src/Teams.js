@@ -1,0 +1,43 @@
+import React, { Component } from "react";
+
+class Teams extends Component {
+  teamPicked(team) {
+    this.props.teamPicked(team);
+  }
+  render() {
+    return (
+      <div className="teams">
+        {this.props.data.map(t => (
+          <div
+            onClick={() => this.teamPicked(t)}
+            className={(t === this.props.team ? "picked " : "") + "team"}
+            key={t.name}
+          >
+            <div className="team-name">{t.name}</div>
+            {t.ou ? (
+              <div className="team-score-holder">
+                <div className={t.winner + " team-score"}>
+                  {t.ou}-{t.opp}
+                </div>
+              </div>
+            ) : (
+              <div className="team-date">{t.date}</div>
+            )}
+            {t.ou && (
+              <div>
+                {t.winners &&
+                  Object.getOwnPropertyNames(t.winners).map(w => (
+                    <div key={w}>
+                      {w} +{t.winners[w]}
+                    </div>
+                  ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    );
+  }
+}
+
+export default Teams;
