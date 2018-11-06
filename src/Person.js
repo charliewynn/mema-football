@@ -18,7 +18,9 @@ class Person extends Component {
     }
     return (
       <div className={(this.props.data.winning ? "winning " : "") + "person"}>
-        {this.state.name}-{this.props.data.points}
+        <div className="person-name">
+          {this.state.name} {this.props.data.points}
+        </div>
         {this.props.team && (
           <div className={"team-score " + winner}>
             {ouScore}-{oppScore}
@@ -26,7 +28,14 @@ class Person extends Component {
         )}
         {this.props.team &&
           this.state.data[this.props.team.name].points > 0 && (
-            <div>{this.state.data[this.props.team.name].points}</div>
+            <div
+              className={
+                "points points-" + this.state.data[this.props.team.name].points
+              }
+            >
+              +{this.state.data[this.props.team.name].points} point
+              {this.state.data[this.props.team.name].points > 1 ? "s" : ""}
+            </div>
           )}
       </div>
     );

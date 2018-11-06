@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import People from "./People";
 import Teams from "./Teams";
+import TeamDetail from "./TeamDetail";
 import "./App.css";
 import PlayerData from "./PlayerData";
 import TeamData from "./TeamData";
@@ -86,6 +87,7 @@ class App extends Component {
           data={this.state.teamData}
           teamPicked={team => this.teamPicked(team)}
         />
+        {this.state.team && <TeamDetail team={this.state.team} />}
         <People people={this.state.playerData} team={this.state.team} />
       </div>
     );

@@ -5,9 +5,9 @@ export default [
   { name: "Army", ou: 28, opp: 21 },
   { name: "Baylor", ou: 66, opp: 33 },
   { name: "Texas", ou: 45, opp: 48 },
-  { name: "TCU", date: "old" },
-  { name: "Kansas State", date: "old" },
-  { name: "Texas Tech", date: "old" },
+  { name: "TCU", ou: 52, opp: 27 },
+  { name: "Kansas State", ou: 51, opp: 14 },
+  { name: "Texas Tech", ou: 51, opp: 46 },
   { name: "Oklahoma State", date: "November 10th" },
   { name: "Kansas", date: "November 17th" },
   { name: "West Virginia", date: "November 23rd" }

@@ -37,7 +37,7 @@ export default {
     TCU: { ou: 35, opp: 24 },
     "Kansas State": { ou: 42, opp: 31 },
     "Texas Tech": { ou: 35, opp: 14 },
-    "Oklahoma State": { ou: 57, opp: null },
+    "Oklahoma State": { ou: 57, opp: 49 },
     Kansas: { ou: 54, opp: 10 },
     "West Virginia": { ou: 35, opp: 31 }
   },

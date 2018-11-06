@@ -8,13 +8,19 @@
   background: rgba(0, 0, 0, 0.05);
   margin: 0.5em;
   border-radius: 2px;
-  padding: 8px;
   min-width: 75px;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
-
-.person.winning {
+.person-name {
+  margin-bottom: 8px;
+  padding: 0.25em;
+  border-radius: 2px 2px 0 0;
+  margin: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.person.winning .person-name {
   background-color: gold;
 }
 .teams {
@@ -43,7 +49,8 @@
   flex-grow: 1;
 }
 .team-score {
-  width: 80px;
+  min-width: 80px;
+  text-align: center;
 }
 
 .team-score.ou-win {
@@ -53,4 +60,38 @@
 .team-score.opp-win {
   color: white;
   background-color: black;
+}
+
+.team-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.team-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-detail h1 {
+  font-size: large;
+  margin-bottom: 0.25em;
+}
+
+.points {
+  padding: 0.15em 0.25em;
+}
+.points-1 {
+  background-color: rgb(0, 0, 0, 0.15);
+  color: black;
+}
+.points-2 {
+  background-color: rgb(121, 160, 218);
+  color: white;
+}
+.points-3 {
+  background-color: green;
+  color: white;
 }
