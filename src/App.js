@@ -7,7 +7,8 @@ import PlayerData from "./PlayerData";
 import TeamData from "./TeamData";
 
 class App extends Component {
-  componentDidMount() {
+  constructor(props) {
+    super(props);
     for (let p in PlayerData) {
       PlayerData[p].points = 0;
     }
@@ -70,12 +71,8 @@ class App extends Component {
       const player = PlayerData[p2];
       if (player.points === mostPoints) player.winning = true;
     }
-    this.setState({ playerData: PlayerData, teamData: TeamData });
+    this.state = { playerData: PlayerData, teamData: TeamData };
   }
-  state = {
-    playerData: PlayerData,
-    teamData: TeamData
-  };
   teamPicked(team) {
     this.setState({ team: team });
   }
