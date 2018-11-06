@@ -15,23 +15,11 @@ class Teams extends Component {
           >
             <div className="team-name">{t.name}</div>
             {t.ou ? (
-              <div className="team-score-holder">
-                <div className={t.winner + " team-score"}>
-                  {t.ou}-{t.opp}
-                </div>
+              <div className={t.winner + " team-score"}>
+                {t.ou}-{t.opp}
               </div>
             ) : (
               <div className="team-date">{t.date}</div>
-            )}
-            {t.ou && (
-              <div>
-                {t.winners &&
-                  Object.getOwnPropertyNames(t.winners).map(w => (
-                    <div key={w}>
-                      {w} +{t.winners[w]}
-                    </div>
-                  ))}
-              </div>
             )}
           </div>
         ))}

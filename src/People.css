@@ -31,26 +31,28 @@
   justify-content: center;
 }
 .team {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.1);
   margin: 0.5em;
   border-radius: 2px;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-direction: column;
-  padding: 8px;
   min-width: 75px;
 }
-
+.team .team-name {
+  padding: 0.25em 0.5em;
+}
+.team-result .team-score {
+  width: 80px;
+}
+.team-date {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
 .team.picked {
   border: 1px solid black;
-}
-.team-score-holder {
-  flex-grow: 1;
-}
-.team-score {
-  min-width: 80px;
-  text-align: center;
 }
 
 .team-score.ou-win {
