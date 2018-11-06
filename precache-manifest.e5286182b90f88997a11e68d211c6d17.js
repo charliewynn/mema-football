@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/mema-football/static/css/main.a2cf53c3.chunk.css"
   },
   {
-    "revision": "b8e561263148397c3ade889ed3dc8f1b",
+    "revision": "b7374662b5d1b7b7b65de885481e0876",
     "url": "/mema-football/index.html"
   }
 ];
