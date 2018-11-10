@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/mema-football/static/js/runtime~main.47584f5d.js"
   },
   {
-    "revision": "7f2f0f10b1d7f0349d9b",
-    "url": "/mema-football/static/js/main.7f2f0f10.chunk.js"
+    "revision": "ee8295dbae15a237fd9b",
+    "url": "/mema-football/static/js/main.ee8295db.chunk.js"
   },
   {
     "revision": "6eb6405c9d99258624bc",
     "url": "/mema-football/static/js/1.6eb6405c.chunk.js"
   },
   {
-    "revision": "7f2f0f10b1d7f0349d9b",
-    "url": "/mema-football/static/css/main.06285e16.chunk.css"
+    "revision": "ee8295dbae15a237fd9b",
+    "url": "/mema-football/static/css/main.ea9c4830.chunk.css"
   },
   {
-    "revision": "f878eadfe09d0842a3b3e0c2c8b97c37",
+    "revision": "510c47f8d8e1eb13ec3fd8d747ea556f",
     "url": "/mema-football/index.html"
   }
 ];
