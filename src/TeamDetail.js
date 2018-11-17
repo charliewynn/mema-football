@@ -2,12 +2,15 @@ import React, { Component } from "react";
 class TeamDetail extends Component {
   render() {
     const team = this.props.team;
-    let result = "OU and " + team.name + " tied!";
+    const tied = team.inprogress ? "are currently tied" : "tied!";
+    const win = team.inprogress ? "is beating" : "beat";
+    const lost = team.inprogress ? "is losing to" : "lost to";
+    let result = "OU and " + team.name + " " + tied;
     if (team.ou > team.opp) {
-      result = `OU beat ${team.name}`;
+      result = `OU ${win} ${team.name}`;
     }
     if (team.ou < team.opp) {
-      result = `OU lost to ${team.name}`;
+      result = `OU ${lost} ${team.name}`;
     }
     const score = `${team.ou}-${team.opp}`;
     return (

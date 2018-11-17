@@ -10,7 +10,11 @@ class Teams extends Component {
         {this.props.data.map(t => (
           <div
             onClick={() => this.teamPicked(t)}
-            className={(t === this.props.team ? "picked " : "") + "team"}
+            className={
+              (t === this.props.team ? "picked " : "") +
+              "team" +
+              (t.inprogress ? " in-progress" : "")
+            }
             key={t.name}
           >
             <div className="team-name">{t.name}</div>

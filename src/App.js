@@ -71,7 +71,18 @@ class App extends Component {
       const player = PlayerData[p2];
       if (player.points === mostPoints) player.winning = true;
     }
-    this.state = { playerData: PlayerData, teamData: TeamData };
+    let currentTeam = TeamData.filter(t => t.focus);
+    if (currentTeam.length) {
+      currentTeam = currentTeam[0];
+    } else {
+      currentTeam = undefined;
+    }
+
+    this.state = {
+      playerData: PlayerData,
+      teamData: TeamData,
+      team: currentTeam
+    };
   }
   teamPicked(team) {
     this.setState({ team: team });

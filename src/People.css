@@ -40,6 +40,9 @@
   flex-direction: column;
   min-width: 75px;
 }
+.team.in-progress.in-progress {
+  border-bottom: 3px solid red;
+}
 .team .team-name {
   padding: 0.25em 0.5em;
 }
