@@ -9,6 +9,6 @@ export default [
   { name: "Kansas State", ou: 51, opp: 14 },
   { name: "Texas Tech", ou: 51, opp: 46 },
   { name: "Oklahoma State", focus: true, inprogress: false, ou: 48, opp: 47 },
-  { name: "Kansas", date: "November 17th" },
+  { name: "Kansas", date: "Today" },
   { name: "West Virginia", date: "November 23rd" }
 ];
