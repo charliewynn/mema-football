@@ -16,7 +16,7 @@ class TeamDetail extends Component {
     return (
       <div className="team-detail">
         <h1>{team.name}</h1>
-        {team.ou ? (
+        {team.ou !== undefined ? (
           <div className="team-result">
             <div>{result}</div>
             <div className={team.winner + " team-score"}>{score}</div>
