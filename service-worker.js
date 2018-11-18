@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mema-football/precache-manifest.120516ef3c3b188df076e9c231aa1767.js"
+  "/mema-football/precache-manifest.b7555dfafb066402258cd25f49627979.js"
 );
 
 workbox.clientsClaim();
