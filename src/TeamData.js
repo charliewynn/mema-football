@@ -12,8 +12,7 @@ export default [
 	{
 		name: "Kansas",
 		ou: 55,
-		opp: 40,
-		focus: true
+		opp: 40
 	},
-	{ name: "West Virginia", date: "November 23rd" }
+	{ name: "West Virginia", ou: 59, opp: 56, focus: true }
 ];
