@@ -2,4 +2,4 @@
 
 ## View the site
 
-[Mema's Football Pool](https://charliewynn.github.io/mema-football).
+[Mema's Football Pool](https://cwynn.com/mema-football-2018).
